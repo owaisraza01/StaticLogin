@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'new';
+    src: url(./Fredoka-VariableFont_wdth\,wght.ttf);
+}
+
+/* body{
+    background-color: antiquewhite;
+}
+th{
+    background-color: rgb(63, 175, 175);
+    width: 250px;
+    height: 50px;
+}
+table{
+    height: 300px;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+}
+div{
+    padding-top: 120px;
+}
+td{
+    text-align: center;
+    border-radius: 30px;
+    background-color: violet;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'new';
+    } */
+div{
+    margin: auto;
+}
+form{
+    background-color: aliceblue;
+    width: 30%;
+    height: 500px;
+    /* padding-top: 10px; */
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    font-family: 'new';
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    
+}
+body{
+    /* background-image: url('./texture.jpg');
+    background-size: 100%; */
+    background-color: rgb(115, 184, 184);
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgb(53, 170, 170);
+    color: aliceblue;
+    padding-bottom: 15px;
+}
+input#email{
+    /* background-image: url('./username.png.crdownload'); */
+    /* background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px; */
+    width: 60%;
+    height: 20px;
+    border: none;
+    background-color: aliceblue;
+
+}
+input#password{
+    /* background-image: url('./password.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: left; */
+    /* padding-left: 16px; */
+    height: 20px;
+    width: 60%;
+    border: none;
+    background-color: aliceblue;
+
+}
+label{
+    width: 80px;
+    display: inline-block;
+}
+.labeled{
+    font-size: 20px;
+}
+input#button{
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(53, 170, 170);
+    border-radius: 10px;
+    color: white;
+    font-family: 'new';
+}
+#userimg{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    background-color: rgb(53, 170, 170) ;
+    padding: 10px;
+
+}
+#passimg{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    background-color: rgb(53, 170, 170) ;
+    padding: 10px;
+    color: aliceblue;
+
+}
+
+input#button:hover{
+    background-color: aquamarine;
+}
+#register{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#radio{
+    text-align: center;
+}
+#userinp{
+    padding-left: 15px;
+}
+#passinp{
+    padding-left: 15px;
+}
